@@ -1,13 +1,10 @@
 {
-    "name": "vairogs/twig",
-    "description": "Useful Twig extensions",
+    "name": "vairogs/twig-pagination",
+    "description": "Twig extension that implements pagination in Twig template",
     "type": "library",
     "keywords": [
-        "env",
-        "getenv",
-        "php",
         "vairogs",
-        "sort",
+        "pagination",
         "symfony",
         "twig",
         "twig-extension"
@@ -42,18 +39,13 @@
     ],
     "require": {
         "php": ">=8.0.0",
-        "doctrine/collections": "~1.6",
         "jetbrains/phpstorm-attributes": "*",
         "twig/twig": "3.*",
         "vairogs/utils": "3.x-dev"
     },
-    "replace": {
-        "vairogs/twig-getenv": "self.version",
-        "vairogs/twig-pagination": "self.version"
-    },
     "autoload": {
         "psr-4": {
-            "Vairogs\\Twig\\": ""
+            "Vairogs\\Twig\\Pagination\\": ""
         }
     },
     "config": {
