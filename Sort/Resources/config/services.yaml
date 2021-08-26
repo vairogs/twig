@@ -1,0 +1,7 @@
+services:
+    vairogs.twig.extension.sort:
+        class: Vairogs\Twig\Sort\Extension
+        public: false
+        tags:
+            -
+                name: twig.extension
